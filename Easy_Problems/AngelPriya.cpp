@@ -14,8 +14,4 @@ int main(){
        else{
            cout << "IGNORE HIM!" << endl;
        }
-
-       // if(UniqueName.size() % 2 == 0)
-
-       
 }
