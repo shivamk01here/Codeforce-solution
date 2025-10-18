@@ -1,11 +1,12 @@
 #include <iostream>
-#include <algorithm> 
+#include <algorithm>
+using namespace std;
 
 int main() {
     long long k, n, w;
-    std::cin >> k >> n >> w;
+    cin >> k >> n >> w;
     long long totalCost = k * w * (w + 1) / 2;
     long long borrowAmount = totalCost - n;
-    std::cout << std::max(0LL, borrowAmount) << std::endl;
+    cout << max(0LL, borrowAmount) << endl;
     return 0;
 }
