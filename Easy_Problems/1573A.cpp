@@ -11,6 +11,8 @@ int main(){
     cin>>n;
     cin>>s;
     steps = 0;
+
+    
     for(int i = 0; i < n-1; i++){
       if(s[i] != '0'){
         steps += (s[i] - '0') + 1;
