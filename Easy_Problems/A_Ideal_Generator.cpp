@@ -7,6 +7,8 @@ int main(){
         int k;
         cin>>k;
         if(k%2==1)cout<<"YES"<<endl;
+
+        //code comment
         else cout<<"NO"<<endl;
     }
 }
